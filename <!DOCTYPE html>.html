@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineClube - Portal de Filmes</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #141414; color: #ffffff; margin: 0; padding: 20px;">
+
+    <header style="text-align: center; padding: 20px; border-bottom: 2px solid #e50914;">
+        <h1 style="color: #e50914; margin: 0;">🎬 CineClube</h1>
+        <p>Os melhores filmes do cinema em um só lugar</p>
+    </header>
+
+    <main style="max-width: 1000px; margin: 30px auto;">
+        <h2 style="border-left: 5px solid #e50914; padding-left: 10px;">Filmes em Destaque</h2>
+        
+        <hr style="border: 0; border-top: 1px solid #333; margin-bottom: 20px;">
+
+        <section style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+            
+            <article style="background-color: #2f2f2f; border-radius: 8px; width: 30%; padding: 15px; box-sizing: border-box;">
+                <img src="https://picsum.photos/id/250/300/400" alt="Capa do Filme Sci-Fi" style="width: 100%; border-radius: 4px;">
+                <h3 style="color: #f5c518; margin: 10px 0 5px 0;">Interestelar</h3>
+                <p><strong>Gênero:</strong> Ficção Científica / Drama</p>
+                <p style="font-size: 14px; color: #ccc;">Uma equipe de exploradores viaja através de um buraco de minhoca no espaço na tentativa de garantir a sobrevivência da humanidade.</p>
+            </article>
+
+            <article style="background-color: #2f2f2f; border-radius: 8px; width: 30%; padding: 15px; box-sizing: border-box;">
+                <img src="https://picsum.photos/id/1062/300/400" alt="Capa do Filme Noir" style="width: 100%; border-radius: 4px;">
+                <h3 style="color: #f5c518; margin: 10px 0 5px 0;">Batman: O Cavaleiro das Trevas</h3>
+                <p><strong>Gênero:</strong> Ação / Policial</p>
+                <p style="font-size: 14px; color: #ccc;">Com a ajuda de Jim Gordon e Harvey Dent, Batman mantém a ordem em Gotham até que um jovem criminoso anarquista conhecido como Coringa surge.</p>
+            </article>
+
+            <article style="background-color: #2f2f2f; border-radius: 8px; width: 30%; padding: 15px; box-sizing: border-box;">
+                <img src="https://picsum.photos/id/103/300/400" alt="Capa do Filme Aventura" style="width: 100%; border-radius: 4px;">
+                <h3 style="color: #f5c518; margin: 10px 0 5px 0;">A Origem</h3>
+                <p><strong>Gênero:</strong> Ficção Científica / Suspense</p>
+                <p style="font-size: 14px; color: #ccc;">Um ladrão que rouba segredos corporativos por meio do uso de tecnologia de compartilhamento de sonhos tem a chance de ter sua vida antiga de volta.</p>
+            </article>
+
+        </section>
+
+        <section style="margin-top: 50px; background-color: #222; padding: 20px; border-radius: 8px;">
+            <h3>Não encontrou seu filme favorito?</h3>
+            <p>Envie uma sugestão para adicionarmos ao catálogo:</p>
+            <form action="#" method="POST">
+                <label for="nome" style="display:block; margin-bottom: 5px;">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" style="width: 100%; padding: 8px; margin-bottom: 15px; border-radius: 4px; border: none;"><br>
+
+                <label for="filme" style="display:block; margin-bottom: 5px;">Nome do Filme:</label>
+                <input type="text" id="filme" name="filme" placeholder="Ex: O Poderoso Chefão" style="width: 100%; padding: 8px; margin-bottom: 15px; border-radius: 4px; border: none;"><br>
+
+                <button type="submit" style="background-color: #e50914; color: white; border: none; padding: 10px 20px; font-weight: bold; border-radius: 4px; cursor: pointer;">Enviar Sugestão</button>
+            </form>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 20px; font-size: 14px; color: #8c8c8c; border-top: 1px solid #333; margin-top: 4px;">
+        <p>&copy; 2026 CineClube. Feito com ❤️ por um fã de cinema.</p>
+    </footer>
+
+</body>
+</html>
